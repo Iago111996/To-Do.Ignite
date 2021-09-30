@@ -7,7 +7,7 @@ import logoImg from '../assets/images/logo/logo.png';
 interface HeaderProps {
   tasksCounter: number;
 }
-//TODO render 'tarefa' if tasksCounter equals 1, otherwise render 'tarefas'
+
 export function Header({ tasksCounter }: HeaderProps) {
   const tasksCounterText = tasksCounter == 1 ? 'tarefa' : 'tarefas';
   
